@@ -15,3 +15,10 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-in
 ## Other Links: 
 http://6.006.scripts.mit.edu/~6.006/spring08/wiki/index.php?title=Document_Distance_Problem_Definition
 https://courses.csail.mit.edu/6.006/fall10/lectures/lecture1.pdf
+
+## Summary:
+This repo consists of 8 implementations for computing the Document Distance between the documents. Each implementation is different from one another. When you move from 1st implementation to 8th implementation, you will observe the improvement in the performance. 8th being the most optimised one and 1st being the least optimised one.
+This repo provides a practical understanding about the Big O Notation and Time Complexity.
+Use "python -m cProfile -s time docDistance8th.py" command to run the individual implementation one by one and note the time taken to achieve the Document Distance.
+
+Cheers, Enjoy!!
